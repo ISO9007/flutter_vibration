@@ -46,5 +46,6 @@ flutter:
     platforms:
       implement: vibration
       ohos:
+        package: com.mollyyau.vibration
         pluginClass: VibrationPlugin
         dartPluginClass: VibrationOhos
