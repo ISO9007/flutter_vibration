@@ -13,10 +13,6 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.1.4
   device_info_plus: ^10.1.0
-#  device_info_plus:
-#    git:
-#      url: https://gitcode.com/openharmony-sig/flutter_plus_plugins.git
-#      path: packages/device_info_plus/device_info_plus
 
 dev_dependencies:
   flutter_test:
