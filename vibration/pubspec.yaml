@@ -12,7 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  vibration_platform_interface: ^0.1.1
+  vibration_platform_interface:
+    path: ../vibration_platform_interface
   vibration_ohos:
     path: ../vibration_ohos
 

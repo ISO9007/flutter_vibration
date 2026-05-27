@@ -2,16 +2,21 @@ name: vibration_platform_interface
 description: A common platform interface for the vibration plugin.
 version: 0.1.2
 homepage: https://github.com/benjamindean/flutter_vibration
+publish_to: none
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.6.0
   flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.1.4
-  device_info_plus: ">=9.0.2 <14.0.0"
+  device_info_plus:
+    git:
+      url: https://gitcode.com/openharmony-sig/flutter_plus_plugins.git
+      path: packages/device_info_plus/device_info_plus
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
