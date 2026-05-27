@@ -2,9 +2,10 @@ name: vibration
 description: A plugin for handling Vibration API on iOS, Android, web and OpenHarmony.
 version: 3.1.8
 homepage: https://github.com/benjamindean/flutter_vibration
+publish_to: none
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.6.0
   flutter: ">=3.0.0"
 
 dependencies:
@@ -12,6 +13,8 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   vibration_platform_interface: ^0.1.1
+  vibration_ohos:
+    path: ../vibration_ohos
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +43,8 @@ flutter:
         pluginClass: VibrationPlugin
       ios:
         pluginClass: VibrationPlugin
+      ohos:
+        default_package: vibration_ohos
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
