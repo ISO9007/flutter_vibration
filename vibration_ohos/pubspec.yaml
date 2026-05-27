@@ -11,10 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-#  vibration_platform_interface: ^0.1.1
   vibration_platform_interface:
     path: ../vibration_platform_interface
-#  device_info_plus_ohos: ^0.0.8
   device_info_plus_ohos:
     git:
       url: https://github.com/ISO9007/device_info_plus_ohos.git
